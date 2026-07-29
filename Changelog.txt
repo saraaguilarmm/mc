@@ -1,0 +1,23 @@
+Driver: San Francisco Patch 1.04 (includes all previous patches) 
+
+List of changes:
+
+- Crashes that might happen when entering the online lobby have been fixed
+- Social Options are now working as expected on Windows XP
+- Menu navigation is not disrupted anymore by specific action sequence
+
+Driver: San Francisco Patch 1.03
+
+List of changes:
+
+- Added support for Logitech G27 Steering Wheel.
+- Game now supports very high screen resolutions (up to 2560*1600).
+- Several menu control glitches fixed.
+- In some rare cases players may observe FPS stutter. This is now fixed.
+- Fixed an issue when the game was unable to locate player's saves if his Uplay account contained "." (dot character).
+
+Driver: San Francisco Patch 1.02 
+
+List of changes:
+
+- Uplay reward system fixed
