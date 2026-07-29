@@ -1,0 +1,45 @@
+.react-calendar {
+  background: hsl(328, 56%, 82%); /* Rosa claro */
+  border: 2px solid #190e03; /* Café claro */
+  border-radius: 16px;
+  padding: 1rem;
+  font-family: 'sans-serif';
+  color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-calendar__navigation button {
+  background: none;
+  color: #232120;
+  font-weight: bold;
+}
+
+.react-calendar__tile {
+  padding: 0.75rem 0.5rem;
+  background: #8e5c7d;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  color: #1b110c;
+}
+
+.react-calendar__tile:enabled:hover {
+  background: #341822; /* Rosa claro al pasar */
+  color: #5a1e47;
+}
+
+.react-calendar__tile--now {
+  background: #100608 !important;
+  font-weight: bold;
+  border: 2px solid #ba708a;
+}
+
+.react-calendar__tile--active {
+  background: #ee2a8f !important; /* Rosa fuerte */
+  color: rgb(6, 5, 6) !important;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-weight: 600;
+  color: #0c0a09;
+}
